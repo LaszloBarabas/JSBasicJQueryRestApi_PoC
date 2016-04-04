@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>  Demo for Rest API</title>
     <!-- Include Jquery library scrips -->
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 
@@ -21,7 +21,8 @@
         function myRestFunc(){
             // prepare the asynchronous  call
             $.ajax({
-                url: 'http://localhost:3000/demo/getexample',
+                /* url: 'http://localhost:3000/demo/getexample', */ 
+		url:'https://floating-meadow-36684.herokuapp.com/demo/getexample', 
                 type: 'GET',
                 dataType: 'json'
             }).done(function(data) { // callback from the server
