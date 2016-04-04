@@ -19,6 +19,9 @@
   ],
   "author": "Laszlo Barabas",
   "license": "ISC",
+   "dependencies": {
+    "restify": "^4.0.3"
+  }, 
   "bugs": {
     "url": "https://github.com/LaszloBarabasUBB/JSBasicJQueryRestApi_PoC/issues"
   },
