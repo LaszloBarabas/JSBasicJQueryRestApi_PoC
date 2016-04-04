@@ -1,0 +1,25 @@
+{
+  "name": "JSBasicJQueryRestApi_PoC",
+  "version": "1.0.0",
+  "description": "Basic RestApi wint web client ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaszloBarabasUBB/JSBasicJQueryRestApi_PoC.git"
+  },
+  "keywords": [
+    "Rest",
+    "Jquery",
+    "pipelines",
+    "review"
+  ],
+  "author": "Laszlo Barabas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaszloBarabasUBB/JSBasicJQueryRestApi_PoC/issues"
+  },
+  "homepage": "https://github.com/LaszloBarabasUBB/JSBasicJQueryRestApi_PoC"
+}

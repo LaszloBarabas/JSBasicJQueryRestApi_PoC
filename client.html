@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>  Demo for Rest API</title>
+    <!-- Include Jquery library scrips -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<h1 >   Demo site for Rest API </h1>
+
+<div id="mainpart">
+
+    <input  type="button" name="Click" value="Push to send a REST " onclick="myRestFunc()" >
+    &nbsp Message from Server:: &nbsp <span id="message_from_server">  Meg semmi    </span>
+
+</div>
+
+    <script>
+        function myRestFunc(){
+            // prepare the asynchronous  call
+            $.ajax({
+                url: 'http://localhost:3000/demo/getexample',
+                type: 'GET',
+                dataType: 'json'
+            }).done(function(data) { // callback from the server
+
+                    $('#message_from_server').text(data.data);
+
+                    })
+                    .fail(function() {
+                        alert("Ajax failed to fetch data")
+                    })
+        }
+
+    </script>
+
+</body>
+</html>
