@@ -1,0 +1,15 @@
+{
+  "name": "JSBasicJQueryRestApi_PoC",
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
