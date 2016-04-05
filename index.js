@@ -44,7 +44,7 @@ server.get("/demo/getexample", function(req, res) {
     var respRandomValue = Math.floor(Math.random() * 10 + 1) ;
 
     console.log('request  description: ', respRandomValue);
-    res.json({type: true, data: 'Answer for the pull-branch: ' + respRandomValue});
+    res.json({type: true, data: 'Answer for the pull-branch v2.0: ' + respRandomValue});
 
 
     // prepare the json answer
