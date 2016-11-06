@@ -42,9 +42,10 @@ server.get("/demo/getexample", function(req, res) {
 
 
     var respRandomValue = Math.floor(Math.random() * 10 + 1) ;
+    var actualtime = Date().toLocaleString(); 
 
     console.log('request  description: ', respRandomValue);
-    res.json({type: true, data: 'Answer for the laszloswork  v1.0: ' + respRandomValue});
+    res.json({type: true, data: 'Answer from  the Laszlo:   v1.0:  Random Value ' + respRandomValue + ' at Time : '+ actualtime});
 
 
     // prepare the json answer
