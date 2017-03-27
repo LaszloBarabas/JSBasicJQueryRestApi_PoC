@@ -45,7 +45,7 @@ server.get("/demo/getexample", function(req, res) {
     var actualtime = Date().toLocaleString(); 
 
     console.log('request  description: ', respRandomValue);
-    res.json({type: true, data: 'Answer from  the Laszlo third:   v 0.1:  Random Value << ' + respRandomValue + ' >> at Time : '+ actualtime});
+    res.json({type: true, data: 'Answer from  the Csaba first:   v 0.1:  Random Value << ' + respRandomValue + ' >> at Time : '+ actualtime});
 
 
     // prepare the json answer
